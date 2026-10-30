@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roblox Client Reference — Independent Tool Profiles</title>
+    <meta name="description" content="An independent reference index of client-side runtime tools for Roblox. Public records, tracker notes, and unverified fields, clearly separated." />
+    <link rel="canonical" href="https://roblox-client-reference.github.io/" />
+
+    <meta property="og:title" content="Roblox Client Reference" />
+    <meta property="og:description" content="Independent reference profiles for Roblox client-side tools." />
+    <meta property="og:url" content="https://roblox-client-reference.github.io/" />
+    <meta property="og:type" content="website" />
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #0a0a0f;
+            color: #e0e0e0;
+            line-height: 1.6;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            max-width: 900px;
+            width: 100%;
+            background: linear-gradient(145deg, #12121a, #1a1a24);
+            padding: 40px;
+            border-radius: 20px;
+            border: 1px solid #2a2a3a;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+        }
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #38bdf8, #2563eb);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: #94a3b8;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            border-left: 3px solid #38bdf8;
+            padding-left: 16px;
+        }
+        .badge {
+            display: inline-block;
+            background: #38bdf8;
+            color: #fff;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            margin-right: 8px;
+        }
+        .badge-green { background: #22c55e; }
+        .card {
+            background: #1a1a2a;
+            border-radius: 14px;
+            padding: 24px;
+            margin-bottom: 20px;
+            border: 1px solid #2a2a3e;
+            transition: all 0.3s;
+        }
+        .card:hover {
+            border-color: #38bdf8;
+            box-shadow: 0 0 30px rgba(56, 189, 248, 0.1);
+        }
+        .card h2 {
+            font-size: 1.6rem;
+            color: #e2e8f0;
+            margin-bottom: 6px;
+        }
+        .card h2 a {
+            background: linear-gradient(135deg, #38bdf8, #2563eb);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: none;
+        }
+        .card p { color: #94a3b8; margin: 8px 0; }
+        .card .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 12px 0;
+        }
+        .card .feature-tag {
+            background: #1e1e2e;
+            padding: 4px 12px;
+            border-radius: 16px;
+            font-size: 0.75rem;
+            color: #94a3b8;
+            border: 1px solid #2a2a3e;
+        }
+        .card .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #38bdf8, #2563eb);
+            color: #fff;
+            padding: 10px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.3s;
+            margin-top: 10px;
+        }
+        .card .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(56, 189, 248, 0.3);
+        }
+        .footer-meta {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: #475569;
+            text-align: center;
+            border-top: 1px solid #1e1e2a;
+            padding-top: 20px;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 24px; }
+            h1 { font-size: 1.8rem; }
+            .card h2 { font-size: 1.3rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚡ ROBLOX CLIENT REFERENCE</h1>
+        <div class="subtitle">
+            <span class="badge">INDEX</span>
+            <span class="badge badge-green">INDEPENDENT</span>
+            Public Records · Profile Entries · 2026
+        </div>
+        <p style="color: #cbd5e1; margin-bottom: 30px;">
+            An independent reference index of client-side runtime tools for Roblox.
+            Each entry collects what public records state, separates verified data
+            from unverified fields, and keeps the caveats attached.
+        </p>
+
+        <div class="card">
+            <h2><a href="https://reference-1.gitbook.io/roblox-wave/">⚡ WAVE</a></h2>
+            <p>Reference profile summarizing public tracker records, function coverage notes, and fields that could not be traced to a primary source.</p>
+            <div class="features">
+                <span class="feature-tag">Tracker Records</span>
+                <span class="feature-tag">Coverage Notes</span>
+                <span class="feature-tag">Unverified Fields</span>
+            </div>
+            <a class="btn" href="https://reference-1.gitbook.io/roblox-wave/">View Profile →</a>
+        </div>
+
+        <div class="card">
+            <h2><a href="https://reference-1.gitbook.io/roblox-volt/">⚡ VOLT</a></h2>
+            <p>Reference profile covering rebrand history, public detection notes, and the distinction between a coverage score and a safety rating.</p>
+            <div class="features">
+                <span class="feature-tag">Rebrand History</span>
+                <span class="feature-tag">Detection Notes</span>
+                <span class="feature-tag">Coverage vs Safety</span>
+            </div>
+            <a class="btn" href="https://reference-1.gitbook.io/roblox-volt/">View Profile →</a>
+        </div>
+
+        <div class="card">
+            <h2><a href="https://reference-1.gitbook.io/roblox-solara/">⚡ SOLARA</a></h2>
+            <p>Reference profile examining what a version log can and cannot establish, and where the public record stops without a primary source.</p>
+            <div class="features">
+                <span class="feature-tag">Version Log</span>
+                <span class="feature-tag">Maintenance Notes</span>
+                <span class="feature-tag">Untraced Source</span>
+            </div>
+            <a class="btn" href="https://reference-1.gitbook.io/roblox-solara/">View Profile →</a>
+        </div>
+
+        <div class="footer-meta">
+            Roblox Client Reference — Independent profile index 2026<br />
+            Not affiliated with Roblox Corporation. Modifying the client violates Roblox Terms of Use.
+        </div>
+    </div>
+</body>
+</html>
